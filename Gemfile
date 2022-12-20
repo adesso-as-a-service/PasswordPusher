@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 ruby "~> 2.6"
 
-gem 'rails', '~> 5.2'
+gem 'rails', '~> 5.2', '>= 5.2.5'
 
 group :development, :test do
   gem 'pry', '~> 0.12'
@@ -18,7 +18,7 @@ gem 'ezcrypto', :git => 'https://github.com/pglombardo/ezcrypto.git'
 #gem 'modernizr-rails', :git => 'https://github.com/russfrisch/modernizr-rails.git'
 gem "high_voltage", '~> 3.1'
 
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'coffee-rails', '~> 5.0'
 gem 'uglifier', '~> 4.1'
 
@@ -26,7 +26,7 @@ gem 'foreman', '~> 0.85'
 gem 'unicorn', '~> 5.5'
 gem 'jquery-rails', '~> 4.3'
 gem 'popper_js', '~> 1.14'
-gem 'bootstrap', '~> 4.3'
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 
 gem 'listen', '~> 3.1'
 
