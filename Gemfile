@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 ruby "~> 2.6"
 
-gem 'rails', '~> 5.2', '>= 5.2.5'
+gem 'rails', '~> 5.2', '>= 5.2.6.3'
 
 group :development, :test do
   gem 'pry', '~> 0.12'
@@ -39,4 +39,5 @@ group :private do
   gem "sqlite3", '~> 1.4'
 end
 
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3', '>= 4.3.12'
+
