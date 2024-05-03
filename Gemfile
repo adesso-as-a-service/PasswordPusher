@@ -2,15 +2,12 @@ source 'http://rubygems.org'
 
 ruby "~> 2.6"
 
-gem 'rails', '~> 5.2', '>= 5.2.6.3'
+gem 'rails', '~> 5.2', '>= 5.2.7.1'
 
 group :development, :test do
   gem 'pry', '~> 0.12'
   gem 'pry-byebug', '~> 3.7', :platforms => [ :mri_20, :mri_21, :mri_22 ]
 end
-
-
-
 
 gem 'json', '~>2.0'
 gem 'slim-rails', '~> 3.2', '>= 3.2.0'
