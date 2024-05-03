@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 ruby "~> 2.6"
 
-gem 'rails', '~> 5.2', '>= 5.2.7.1'
+gem 'rails', '~> 5.2', '>= 5.2.8.1'
 
 group :development, :test do
   gem 'pry', '~> 0.12'
