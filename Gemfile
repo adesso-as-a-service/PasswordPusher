@@ -9,9 +9,6 @@ group :development, :test do
   gem 'pry-byebug', '~> 3.7', :platforms => [ :mri_20, :mri_21, :mri_22 ]
 end
 
-
-
-
 gem 'json', '~>2.0'
 gem 'slim-rails', '~> 3.2', '>= 3.2.0'
 gem 'ezcrypto', :git => 'https://github.com/pglombardo/ezcrypto.git'
@@ -39,4 +36,5 @@ group :private do
   gem "sqlite3", '~> 1.4'
 end
 
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3', '>= 4.3.12'
+
