@@ -42,5 +42,5 @@ group :private do
   gem "sqlite3", '~> 1.4'
 end
 
-gem 'puma', '~> 5.6'
+gem 'puma', '~> 6.4', '>= 6.4.2'
 
