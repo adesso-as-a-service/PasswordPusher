@@ -13,7 +13,7 @@ else
 end
 # Controls the "Expire After Days" form settings in Password#new
 EXPIRE_AFTER_TIME_DEFAULT = Integer(ENV.fetch('EXPIRE_AFTER_TIME_DEFAULT', 1))
-EXPIRE_AFTER_TIME_ALLOWED = [1,6,12,24,48,72,96,120,1008]
+EXPIRE_AFTER_TIME_ALLOWED = [1,6,12,24,48,72,96,120,240,1008]
 
 # Controls the "Expire After Views" form settings in Password#new
 EXPIRE_AFTER_VIEWS_DEFAULT = Integer(ENV.fetch('EXPIRE_AFTER_VIEWS_DEFAULT', 1))
