@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 ruby "~> 3.1.0"
 
-gem 'rails', '~> 7.1', '>= 7.1.0'
+gem 'rails', '~> 7.1', '>= 7.1.3.3'
 
 
 group :development, :test do
