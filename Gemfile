@@ -30,7 +30,7 @@ gem 'foreman', '~> 0.87'
 gem 'unicorn', '~> 6.0'
 gem 'jquery-rails', '~> 4.5', '>= 4.5.1'
 gem 'popper_js', '~> 1.14'
-gem 'bootstrap', '~> 4.6', '>= 4.6.2'
+gem 'bootstrap', '~> 4.6', '>= 4.6.2.1'
 gem 'listen', '~> 3.7'
 
 group :production, :test  do
