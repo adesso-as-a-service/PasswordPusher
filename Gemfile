@@ -4,7 +4,6 @@ ruby "~> 3.1.0"
 
 gem 'rails', '~> 7.1', '>= 7.1.3.4'
 
-
 group :development, :test do
   gem 'pry', '~> 0.12'
   gem 'pry-byebug', '~> 3.7', :platforms => [ :mri_20, :mri_21, :mri_22 ]
