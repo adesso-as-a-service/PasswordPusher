@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
-ruby "~> 3.1.0"
+ruby "~> 3.2.0"
 
 
-gem 'rails', '~> 7.1', '>= 7.1.4.1'
+gem 'rails', '~> 7.1', '>= 7.1.5.1'
 
 group :development, :test do
   gem 'pry', '~> 0.12'
@@ -29,7 +29,7 @@ gem 'uglifier', '~> 4.2'
 gem 'foreman', '~> 0.87'
 gem 'unicorn', '~> 6.0'
 gem 'jquery-rails', '~> 4.5', '>= 4.5.1'
-gem 'popper_js', '~> 1.14'
+gem 'popper_js', '~> 2.11.8'
 gem 'bootstrap', '~> 5.0', '>= 5.0.0'
 
 gem 'listen', '~> 3.7'
