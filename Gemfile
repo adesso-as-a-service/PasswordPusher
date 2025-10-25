@@ -28,7 +28,7 @@ gem 'uglifier', '~> 4.2'
 
 gem 'foreman', '~> 0.87'
 gem 'unicorn', '~> 6.0'
-gem 'jquery-rails', '~> 4.5', '>= 4.5.1'
+gem 'jquery-rails', '~> 4.6', '>= 4.6.1'
 gem 'popper_js', '~> 2.11.8'
 gem 'bootstrap', '~> 5.0', '>= 5.0.0'
 
