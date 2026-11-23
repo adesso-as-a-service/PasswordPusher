@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 ruby "~> 3.2.0"
 
 
-gem 'rails', '~> 7.1', '>= 7.1.5.1'
+gem 'rails', '~> 7.2', '>= 7.2.1.2'
 
 group :development, :test do
   gem 'pry', '~> 0.12'
@@ -15,7 +15,7 @@ end
 
 
 gem 'json', '~>2.6'
-gem 'slim-rails', '~> 3.6', '>= 3.6.1'
+gem 'slim-rails', '~> 3.7', '>= 3.7.0'
 
 gem 'ezcrypto', :git => 'https://github.com/pglombardo/ezcrypto.git'
 #gem 'modernizr-rails', :git => 'https://github.com/russfrisch/modernizr-rails.git'
