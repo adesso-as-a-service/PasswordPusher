@@ -24,7 +24,7 @@ gem "high_voltage", '~> 3.1'
 
 gem 'sass-rails', '~> 6.0'
 gem 'coffee-rails', '~> 5.0'
-gem 'uglifier', '~> 4.2'
+gem 'terser', '~> 1.2'
 
 gem 'foreman', '~> 0.87'
 gem 'unicorn', '~> 6.0'
