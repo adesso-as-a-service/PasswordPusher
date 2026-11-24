@@ -51,9 +51,9 @@ Rails.application.configure do
   #config.ssl_options += { hsts: { expires: 6.months } }
   config.force_ssl = true
 
-  # Use the lowest log level to ensure availability of diagnostic information
-  # when problems arise.
-  config.log_level = :debug
+  # Default info: requests without SQL. debug would log the SQL bind values,
+  # including the encrypted payload, next to the key the application holds.
+  config.log_level = ENV.fetch("RAILS_LOG_LEVEL", "info").to_sym
 
   # Prepend all log lines with the following tags.
   config.log_tags = [ :request_id ]
