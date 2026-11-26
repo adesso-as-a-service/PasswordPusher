@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 ruby "~> 3.3.14"
 
 
-gem 'rails', '~> 7.2', '>= 7.2.1.2'
+gem 'rails', '~> 7.2', '>= 7.2.4'
 
 group :development, :test do
   gem 'pry', '~> 0.12'
@@ -43,5 +43,5 @@ group :private do
   gem "sqlite3", '~> 1.4'
 end
 
-gem 'puma', '~> 6.4', '>= 6.4.3'
+gem 'puma', '~> 7.2', '>= 7.2.4'
 
