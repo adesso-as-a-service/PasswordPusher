@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 ruby "~> 3.3.14"
 
 
-gem 'rails', '~> 7.2', '>= 7.2.1.2'
+gem 'rails', '~> 8.0', '>= 8.0.5.2'
 
 group :development, :test do
   gem 'pry', '~> 0.12'
@@ -15,7 +15,7 @@ end
 
 
 gem 'json', '~>2.6'
-gem 'slim-rails', '~> 3.7', '>= 3.7.0'
+gem 'slim-rails', '~> 4.0', '>= 4.0.0'
 
 gem 'ezcrypto', :git => 'https://github.com/pglombardo/ezcrypto.git'
 #gem 'modernizr-rails', :git => 'https://github.com/russfrisch/modernizr-rails.git'
@@ -28,7 +28,7 @@ gem 'terser', '~> 1.2'
 
 gem 'foreman', '~> 0.87'
 gem 'unicorn', '~> 6.0'
-gem 'jquery-rails', '~> 4.5', '>= 4.5.1'
+gem 'jquery-rails', '~> 4.6', '>= 4.6.1'
 gem 'popper_js', '~> 2.11.8'
 gem 'bootstrap', '~> 5.0', '>= 5.0.0'
 
