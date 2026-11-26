@@ -2,6 +2,7 @@ require 'openssl'
 require 'digest/sha2'
 require 'base64'
 require 'json'
+require 'securerandom'
 
 class PasswordsController < ApplicationController
   # GET /passwords/1
@@ -91,7 +92,7 @@ class PasswordsController < ApplicationController
       @password.deletable_by_viewer = false
     end
 
-    @password.url_token = rand(36**16).to_s(36)
+    @password.url_token = SecureRandom.random_number(36**16).to_s(36)
 
     # The first view on new passwords are free since we redirect
     # the passwd creator to the password itself (and don't burn up a view).
